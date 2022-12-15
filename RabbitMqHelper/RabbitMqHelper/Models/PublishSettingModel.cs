@@ -1,7 +1,7 @@
 using System.Diagnostics.SymbolStore;
 
 namespace RabbitMqHelper.Models;
-public class SettingModel
+public class PublishSettingModel
 {
   public bool Durable { get; set; }
   public bool PropertiesPersistance { get; set; }
@@ -15,7 +15,7 @@ public class SettingModel
   /// <param name="propertiesPersistance"></param>
   /// <param name="exclusive"></param>
   /// <param name="autoDelete"></param>
-  public SettingModel(bool durable = true, bool propertiesPersistance = true,
+  public PublishSettingModel(bool durable = true, bool propertiesPersistance = true,
                       bool exclusive = false, bool autoDelete = false)
   {
     Durable = durable;

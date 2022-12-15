@@ -11,7 +11,11 @@ public class Publisher : IPublisher
   public Publisher(IConfiguration configuration, IConnectionFactory rabbitConnectionFactory)
   {
     _configuration = configuration;
-    _rabbitConnectionFactory = rabbitConnectionFactory;
+    _rabbitConnectionFactory = new ConnectionFactory()
+    {
+      HostName = _configuration["RabbitMQ:Connection"],
+      DispatchConsumersAsync = true
+    };
   }
   public async Task<bool> SendAsync(PublishModel publishModel)
   {

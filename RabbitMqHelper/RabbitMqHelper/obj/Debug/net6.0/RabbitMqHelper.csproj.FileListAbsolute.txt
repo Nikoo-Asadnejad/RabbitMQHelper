@@ -1,0 +1,5 @@
+D:\web development\projects\RabbitMQHelper\RabbitMqHelper\RabbitMqHelper\obj\Debug\net6.0\RabbitMqHelper.csproj.AssemblyReference.cache
+D:\web development\projects\RabbitMQHelper\RabbitMqHelper\RabbitMqHelper\obj\Debug\net6.0\RabbitMqHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\web development\projects\RabbitMQHelper\RabbitMqHelper\RabbitMqHelper\obj\Debug\net6.0\RabbitMqHelper.AssemblyInfoInputs.cache
+D:\web development\projects\RabbitMQHelper\RabbitMqHelper\RabbitMqHelper\obj\Debug\net6.0\RabbitMqHelper.AssemblyInfo.cs
+D:\web development\projects\RabbitMQHelper\RabbitMqHelper\RabbitMqHelper\obj\Debug\net6.0\RabbitMqHelper.csproj.CoreCompileInputs.cache

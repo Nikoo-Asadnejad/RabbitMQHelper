@@ -1,7 +1,6 @@
 
 using RabbitMqHelper.Interfaces;
 using RabbitMqHelper.Models;
-
 namespace RabbitMqHelper.Services;
 public class Publisher : IPublisher
 {
